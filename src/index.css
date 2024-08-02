@@ -1,0 +1,131 @@
+.card {
+    transition: 0.3s;
+    width: 200px;
+    border-radius: 5px;
+    background-color:#9be99e;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #383636;
+    box-shadow: 0 0 10px #0000001a;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-group button {
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-group button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+    
+  }
+  
+  .filter label {
+    margin-right: 10px;
+    
+  }
+  
+  .filter select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .todo-card {
+    
+    margin: 20px;
+    
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-card .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .todo-card .card-header {
+    background-color: #9be99e;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .todo-card .card-body {
+    padding: 20px;
+  }
+  
+  .todo-card .card-body p {
+    margin-bottom: 20px;
+  }
+  
+  .todo-card .card-footer {
+    background-color: #9be99e;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .todo-card .card-footer .todo-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .todo-card .card-footer button {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-card .card-footer button:hover {
+    background-color: #3e8e41;
+  }
